@@ -20,7 +20,7 @@ namespace Infrastructure.Context
             {
                 optionsBuilder.UseSqlServer("Server=PC-ALPHA; Database=FilesDB; Trusted_Connection=True; TrustServerCertificate=True;")
                 .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
-            }
+        }
 
             base.OnConfiguring(optionsBuilder);
         }
