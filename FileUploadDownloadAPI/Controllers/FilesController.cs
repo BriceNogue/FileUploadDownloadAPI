@@ -15,7 +15,7 @@ namespace FileUploadDownloadAPI.Controllers
         }
 
         [HttpPost("upload")]
-        public async Task<IActionResult> UploadFile(IFormFile file)
+        public async Task<IActionResult> UploadFile(IFormFile file, string filePath)
         {
             if (file == null || file.Length == 0)
             {

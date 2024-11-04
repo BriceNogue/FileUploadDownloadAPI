@@ -14,11 +14,9 @@ namespace Infrastructure.Context
     //    {
     //        var optionsBuilder = new DbContextOptionsBuilder<DataContext>();
 
-    //        // change if needed
     //        optionsBuilder.UseSqlServer("Server=PC-ALPHA; Database=FilesDB; Trusted_Connection=True; TrustServerCertificate=True;");
 
     //        return new DataContext(optionsBuilder.Options);
-
     //    }
     //}
 }

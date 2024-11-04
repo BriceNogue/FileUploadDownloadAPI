@@ -10,7 +10,7 @@ namespace Application.IRepository.IFileRepository
 {
     public interface IFileRepository : IBaseRepository<FileEntity>
     {
-        Task UploadFile(string fileName, byte[] fileContent);
+        Task UploadFile(string fileName, byte[] fileContent, string filePath);
         Task<FileEntity> GetFileByNameAsync(string fileName);
     }
 }
